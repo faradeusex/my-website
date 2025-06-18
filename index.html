@@ -3,37 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Галерея Faradeusex</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Эксклюзивный продукт — Faradeusex</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Галерея Faradeusex</h1>
-    <p>Красивый и современный сайт с галереей</p>
-  </header>
-  <main>
-    <section class="gallery">
-      <figure>
-        <img src="images/photo1.jpg" alt="Фото 1" />
-        <figcaption>Фото 1</figcaption>
-      </figure>
-      <figure>
-        <img src="images/photo2.jpg" alt="Фото 2" />
-        <figcaption>Фото 2</figcaption>
-      </figure>
-      <figure>
-        <img src="images/photo3.jpg" alt="Фото 3" />
-        <figcaption>Фото 3</figcaption>
-      </figure>
-      <figure>
-        <img src="images/photo4.jpg" alt="Фото 4" />
-        <figcaption>Фото 4</figcaption>
-      </figure>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 Faradeusex Gallery</p>
-  </footer>
+
+<header class="header">
+  <nav class="nav container">
+    <div class="logo">Faradeusex</div>
+    <ul class="nav-links">
+      <li><a href="#about">О продукте</a></li>
+      <li><a href="#gallery">Галерея</a></li>
+      <li><a href="#reviews">Отзывы</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Эксклюзивный продукт, который меняет всё</h1>
+    <p>Лучшее решение для тех, кто ценит качество и уникальность.</p>
+    <a href="#contacts" class="btn">Связаться с нами</a>
+  </div>
+</section>
+
+<section id="about" class="about container">
+  <h2>Почему мы?</h2>
+  <p>Наша компания предлагает уникальный продукт с неповторимыми свойствами, созданный по эксклюзивной технологии.</p>
+  <div class="features">
+    <div class="feature">
+      <h3>Высокое качество</h3>
+      <p>Каждый элемент проходит тщательный контроль.</p>
+    </div>
+    <div class="feature">
+      <h3>Индивидуальный подход</h3>
+      <p>Мы учитываем все ваши пожелания.</p>
+    </div>
+    <div class="feature">
+      <h3>Долговечность</h3>
+      <p>Наш продукт служит годами.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery container">
+  <h2>Галерея</h2>
+  <div class="gallery-grid">
+    <img src="images/product1.jpg" alt="Продукт 1" />
+    <img src="images/product2.jpg" alt="Продукт 2" />
+    <img src="images/product3.jpg" alt="Продукт 3" />
+    <img src="images/product4.jpg" alt="Продукт 4" />
+  </div>
+</section>
+
+<section id="reviews" class="reviews container">
+  <h2>Отзывы наших клиентов</h2>
+  <div class="review-cards">
+    <div class="review">
+      <p>"Лучший продукт на рынке! Совершенно изменил мою жизнь."</p>
+      <span>- Иван П.</span>
+    </div>
+    <div class="review">
+      <p>"Высокое качество и отличный сервис. Рекомендую всем."</p>
+      <span>- Ольга С.</span>
+    </div>
+  </div>
+</section>
+
+<footer id="contacts" class="footer container">
+  <h2>Свяжитесь с нами</h2>
+  <p>Email: info@faradeusex.com</p>
+  <p>Телефон: +7 999 123 45 67</p>
+  <p>Соцсети: 
+    <a href="#">Instagram</a> | 
+    <a href="#">Facebook</a> | 
+    <a href="#">VK</a>
+  </p>
+  <p>© 2025 Faradeusex</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
